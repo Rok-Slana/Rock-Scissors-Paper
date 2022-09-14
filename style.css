@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+
+#container{
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    height: 160px;
+    flex: 1;
+    justify-content:center;
+    background-color: rgb(168, 179, 120);
+    border: 1px solid orange;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+button{
+    margin: 50px 50px 50px 50px;
+    font-weight: 900;
+    font-size: 22px;
+    border: 3px solid black;
+    height: 60px;
+    width: 180px;
+    border-radius: 18px;
+    flex: 1;
+}
+
+#display-container{
+    display: flex;
+}
+
+#display{
+    flex: 1;
+    height: 160px;
+    width: 30%;
+    border: 3px solid orangered;
+    margin: 100px 50px 0px 50px;
+}
+
